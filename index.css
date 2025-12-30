@@ -1,9 +1,11 @@
 body {
     background-image: url("skibiddi.png");
-    background-size: cover;
+    background-size: contain;      
+    background-repeat: no-repeat;  
+    background-position: center;   
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .container {
